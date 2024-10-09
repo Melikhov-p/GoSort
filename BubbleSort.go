@@ -1,6 +1,6 @@
 package GoSort
 
-func Sort(arr *[]int) {
+func BubbleSort(arr *[]int) {
 	var rightLimit = len(*arr) - 1
 
 	for rightLimit >= 0 {
